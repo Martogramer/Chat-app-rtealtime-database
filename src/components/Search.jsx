@@ -82,13 +82,13 @@ const Search = () => {
       <div className="searchForm">
         <input
           type="text"
-          placeholder="Find a user"
+          placeholder="Buscar Usuario"
           onKeyDown={handleKey}
           onChange={(e) => setUsername(e.target.value)}
           value={username}
         />
       </div>
-      {err && <span>User not found!</span>}
+      {err && <span>Usuario no encontrado</span>}
       {user && (
         <div className="userChat" onClick={handleSelect}>
           <img src={user.photoURL} alt="" />
