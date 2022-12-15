@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "chatecito",
-    "public": "public",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
